@@ -1,40 +1,67 @@
-# Zahmoul v Secretary of State for Justice & HMCTS
+# The Saghro Files
 
-**Public documentary archive · AC-2025-LON-004293**
-**High Court of England and Wales · Administrative Court · Permission stage**
+**A public evidential record, and an independent reconstruction of it**
 
-This repository is the public documentary record of an ongoing judicial review against the Lord Chancellor and HM Courts and Tribunals Service. It is maintained by the claimant, Nadia Zahmoul, a litigant in person.
-
-The judicial review concerns the administrative handling of court-ordered protective measures and evidential material in proceedings in which the claimant has been a party. Five grounds are pleaded, set out in full in the Amended Grounds of Claim (2 January 2026, in `01_JUDICIAL_REVIEW`).
-
-The materials published here are filings, court decisions, correspondence, and exhibits drawn from live proceedings. They are made public for accountability and verification, in circumstances where multiple submissions remain undetermined. No confidential or third-party material is published.
+Maintained by Nadia Zahmoul, litigant in person · X [@SaghroProject](https://x.com/SaghroProject)
 
 ---
 
-**A reader engaging with the archive for the first time should begin with `_START_HERE.md`** — a one-page reader's guide that summarises the case, identifies the procedural posture, and indicates where to start.
+## What this is
 
----
+This repository is the public record of an independent evidential reconstruction. It preserves the primary documents of a series of connected proceedings, so that the findings made in them can be tested against the evidence from which they arose.
 
-## Repository structure
+It does not ask anyone to accept an account. It places the record where it can be examined.
 
-The archive has three numbered folders forming the spine:
+The work follows a published Governing Framework (14 September 2026) in five stages:
 
-- `00_PUBLIC_RECORD` — serialised public-record statements
-- `01_JUDICIAL_REVIEW` — procedural file of the live judicial review
-- `02_UNANSWERED_SUBMISSIONS_INSTITUTIONAL_SILENCE` — submissions awaiting substantive response
+**Record → Reconstruct → Assess → Test → Act**
 
-Supporting folders organised by document type contain correspondence, court decisions and filings outside the JR procedural file, criminal referrals, medical records, parliamentary submissions, press correspondence, and timeline materials.
+The primary evidential record is preserved first. Defined questions are then reconstructed against it. Legal assessment and independent testing follow, and belong to people other than the author. The process is as capable of contradicting the author's position as of supporting it.
 
-A folder map and reading order is set out in `_START_HERE.md`.
+## The proceedings
 
----
+| Proceedings | Court | Reference |
+|---|---|---|
+| Financial remedy | High Court, Family Division | BV20D01752 |
+| Appeal | Court of Appeal | CA-2024-001342 |
+| Judicial review | Administrative Court | AC-2025-LON-004293 |
+| Enforcement — live | High Court, Chancery Division | BL-2024-001217 |
+
+## Where to start
+
+Read [`_START_HERE.md`](_START_HERE.md) first. It summarises the proceedings, the present position, and the order in which to read the record.
+
+## How the repository is arranged
+
+| Folder | Contents |
+|---|---|
+| `00_PUBLIC_RECORD` | Public-record statements and open correspondence, in date order |
+| `01_JUDICIAL_REVIEW` | The procedural file of the judicial review |
+| `02_UNANSWERED_SUBMISSIONS_INSTITUTIONAL_SILENCE` | Submissions awaiting a substantive response |
+| `03_CRIMINAL_ANNEXES_AND_REFERRALS` | Annexes to criminal referrals |
+| `CORRESPONDENCE` | Correspondence outside the judicial review file |
+| `COURT_DECISIONS` | Orders and judgments |
+| `COURT_FILINGS` | Applications, statements and other filings |
+| `CRIMINAL_REFERRALS` | Criminal referrals |
+| `MEDICAL` | Medical records of the author |
+| `OUTPUTS` | Reports and analyses produced under the Governing Framework |
+| `PARLIAMENTARY` | Submissions to Parliament and its committees |
+| `PRESS` | Press releases and statements |
+| `TIMELINE` | Chronologies |
 
 ## Verification
 
-Court documents bear court seals, case numbers, and filing references that can be verified independently with HM Courts and Tribunals Service. Case number AC-2025-LON-004293 is searchable on the Administrative Court CE-File system.
+Every document in the record carries a permanent reference in the Master Register, in the form Z-0000, and a SHA-256 content hash. Anyone can recompute the hash of a file and compare it: a match shows the file is identical to the one recorded; any difference shows it is not.
 
----
+Court documents bear seals, case numbers and filing references that can be verified independently with HM Courts and Tribunals Service.
+
+## What is published, and what is not
+
+> **To be confirmed by the author before publication.** The statement below must be checked against the contents of `CRIMINAL_REFERRALS` and `03_CRIMINAL_ANNEXES_AND_REFERRALS`.
+
+Material transmitted in confidence to law-enforcement authorities is not published here. Individuals who are not parties to the proceedings are not named. The official transcripts of the final hearing are published on counsel's advice.
 
 ## Contact
 
-Nadia Zahmoul — `nadia@rosekross.com`
+Nadia Zahmoul — nadia@rosekross.com
+
